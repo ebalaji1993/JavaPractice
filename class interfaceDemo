@@ -1,0 +1,14 @@
+Interface I1{
+    void show();
+}
+ class interfaceDemo implements I1{
+    public void show(){
+        System.out.println("A");
+    }
+}
+class test{
+    public static void main(String[] args){
+        interfaceDemo i1=new interfaceDemo();
+        i1.show();
+    }
+}
